@@ -1,10 +1,7 @@
-numbers = [10, 20, 30, 40, 50] 
- 
-
-sum_of_numbers = sum(numbers) 
- 
-
-average = sum_of_numbers / len(numbers) 
- 
-
-print(f"The average of the numbers is: {average}") 
+num1 = 2
+num2 = 3
+num3 = 6
+num4 = 8
+num5 = 10
+avg = (num1 + num2 + num3 + num4 + num5) / 5
+print('The average of numbers = %0.2f' %avg)
